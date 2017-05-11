@@ -5,7 +5,7 @@ var midiConnector = require('midi-launchpad').connect(1,false);
 midiConnector.on("ready",function(launchpad){
 	
 	console.log("Launchpad ready");
-	// launchpad.getButton(2,2).light(launchpad.colors.green.high);
+	// launchpad.getButton(2,2).light(launchpad.colors.green.high); //test codes
 	// launchpad.getButton(1,1).light(launchpad.colors.green.high);
 	// launchpad.getButton(3,3).light(launchpad.colors.green.high);
 	launchpad.clear();
